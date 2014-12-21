@@ -14,11 +14,13 @@
     "virtual-glue": "0.0.2"
   },
   "devDependencies": {
+    "gh-pages-deploy": "^0.1.1",
     "metalsmith-serve": "0.0.3"
   },
   "scripts": {
     "build": "node index.js",
     "watch": "node watch.js",
+    "deploy": "gh-pages-deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,5 +32,13 @@
   "bugs": {
     "url": "https://github.com/derekr/drk.es/issues"
   },
-  "homepage": "https://github.com/derekr/drk.es"
+  "homepage": "https://github.com/derekr/drk.es",
+  "gh-pages-deploy": {
+    "staticpath": "build",
+    "cname": "drk.es",
+    "prep": [
+      "build"
+    ],
+    "noprompt": false
+  }
 }
