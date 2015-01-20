@@ -1,5 +1,5 @@
 body {
-  font-family: "Playfair Display";
+  font-family: "PT Serif" Georgia;
 }
 h1 {
   font-size: 7em;
@@ -7,6 +7,15 @@ h1 {
   line-height: 1.3;
   letter-spacing: -1px;
   color: #333;
+  font-family: "Playfair Display" Georgia;
+}
+h2,
+h3,
+h4 {
+  color: #333;
+}
+h2 {
+  margin-top: 30px;
 }
 p {
   line-height: 1.5;
