@@ -1,16 +1,43 @@
 <head>
-  <title></title>
-  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Domine:400,700">
-  <style media="screen">
-    body {
-      font-family: Domine;
-    }
-  </style>
+    <title>Deploying With Dokku on Digital Ocean Part 1</title>
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Playfair Display:400,700">
+    <link rel="stylesheet" href="/public/css/main.css">
+    <meta name="description" content="Derek Reynolds - Work and writings from a software dev.">
 </head>
-
 <body>
-  <div class="article-container">
+    <div class="container"><article class="article-container">
     <h1 id="deploying-with-dokku-on-digital-ocean">Deploying With Dokku on Digital Ocean</h1>
-    <p>This is a test</p>
-  </div>
+<p>Artists have sketchbooks. Writers have notebooks. Actors have rehearsals. Developers have deployment environments!</p>
+<p>Not one to roll my own solutions too often (ha!) I finally felt compelled to setup a mini <a href="https://www.heroku.com" title="Heroku">Heroku</a> alternative for myself.</p>
+<p>Before reading further it will help to have an understanding of <a href="git">Git</a> for managing source code.</p>
+<h2 id="why-not-heroku-">Why Not Heroku?</h2>
+<p><a href="https://www.heroku.com" title="Heroku">Heroku</a> is awesome. The workflow is ideal for putting something on the internet no matter what coding language or tech stack you&#39;re using. It came in really handy when we used it to deploy <a href="http://thepunboard.com" title="The Punboard">The Punboard</a> for the <a href="comedy-hack-day">Fall Comedy Hack Day</a> event.</p>
+<p>The main ingredients for deploying to Heroku are:</p>
+<h3 id="procfile">Procfile</h3>
+<p>This file instructs Heroku on what to run once your code is deployed.</p>
+<pre><code>web: node index.js
+</code></pre><p>Where <code>web</code> is the name of the process so you can later monitor it in Heroku&#39;s dashboards. <code>node index.js</code> is the command to kick off your actual process - like a web server. In this case we&#39;re running a simple Javascript file in a <a href="http://nodejs.org" title="node.js">node.js</a> environment.</p>
+<h3 id="git-remote">Git Remote</h3>
+<p>A Heroku deployment is a simple <code>git push</code> operation. It&#39;s a way of sending just the updated code to Heroku&#39;s servers.</p>
+<pre><code>git remote add heroku {heroku address}
+git push heroku
+</code></pre><p>There is more you can do and configure beyond this, but the workflow now is simply <code>git push heroku</code> and Heroku will run the
+<code>web</code> process after receiving the updates from <code>git push</code>.</p>
+<h2 id="enter-dokku">Enter Dokku</h2>
+<p>While the Heroku workflow is brilliant there are aspects about the service that I can live without.</p>
+<p>Price wise Heroku is pretty solid if you&#39;re deploying simple apps. You really only start to pay when you need to scale a single app which is a whole other discussion. So while you can run a free instance per app if your app has low traffic Heroku will idle. This prevents users from accessing your app while Heroku spins up a new instance on new traffic. There are hacks around this like <a href="pingdom">setting up Pingdom</a> to make a request against your app every minute, but I don&#39;t want to set stuff like this up for small test projects.</p>
+<p>I&#39;ve been geeking out on Docker lately which surfaced this neat tool called Dokku. Dokku pitches itself as &quot;Docker powered mini-Heroku in around 100 lines of Bash&quot;. That sounds like a wonderful alternative to me!</p>
+<h2 id="enter-digital-ocean">Enter Digital Ocean</h2>
+<p>With Dokku in mind I need somewhere to act as a host for Dokku. <a href="digital-ocean">Digital Ocean</a> is a cloud hosting provider that offers dead simple base images - which are like templates for operating systems - one of which comes with Dokku already installed. In less than 5 minutes you can spin up a small server  with Dokku already installed for $5 a month which is super cheap compared to other hosting providers.</p>
+<h2 id="now-what-">Now What?</h2>
+<p>I think the concept of a Heroku workflow (which is commonly referred to as <a href="paas">PaaS or Platform as a Service</a>) can be difficult to grok for new dev so I&#39;m breaking this up in to two parts. Hopefully this article is a good introduction to alternative tools that help facilitate a Heroku workflow. In a follow up I&#39;ll go in to the actual implementation!</p>
+<p>In the meantime you might want to try <a href="heroku-getting-started">setting up a sample app on Heroku</a> to get a feel for the workflow before rolling you&#39;re own hosted solution.</p>
+<h1 id="notes">Notes</h1>
+<ul>
+<li>Reference different environments/technologies and how Heroku auto detects them.</li>
+<li>Benefit is it&#39;s simple, but it aint cheap and they auto shutdown processes.</li>
+</ul>
+
+</article>
+</div>
 </body>
