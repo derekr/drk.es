@@ -17,6 +17,7 @@ if I might be able to help out :).
 
 [articles]: /articles (Articles on drk.es)
 [resume]: /resume (Derek's Resume)
+[contact]: /contact (Contact Derek)
 [github]: https://github.com/derekr (derekr on Github)
 [twitter]: https://twitter.com/drk (drk on Twitter)
 [dribbble]: http://dribbble.com/derek (derek on Dribbble)
