@@ -13,7 +13,7 @@ catalog [cool dev tools][drktools] and photograph on
 
 Currently available for work in SF.
 Read [more about me][resume] and [let me know][contact]
-if I might be able to help out :).
+if we should chat :).
 
 [articles]: /articles (Articles on drk.es)
 [resume]: /resume (Derek's Resume)
