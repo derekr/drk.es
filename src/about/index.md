@@ -49,7 +49,7 @@ Now in **2015** I'm looking for another project to work on! I'm at a place in my
 career where I not only want to create great work, but I'm excited about helping
 others do great and meaningful work as well.
 
-– drk
+– <img src="/public/images/drk-001.jpg" alt="drk" class="about-img"> drk
 
 <br><br>
 
