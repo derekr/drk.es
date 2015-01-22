@@ -94,9 +94,22 @@ Simplest way of removing `.less` files from resulting build.
 
 [/lib/metalsmith-layout.js](/lib/metalsmith-layout.js)
 
-Custom plugin that wraps all parsed `*.html` files and wraps them
+Custom plugin that takes all parsed `*.html` files and wraps them
 in a base template [/lib/templates/layout.html](/lib/templates/layout.html). Provides
 custom logic for pre-rendering collections with a particular template (such as articles being wrapped in an `article` tag).
+
+## Deployment
+
+Initially I was using a really cool module [gh-pages-deploy][deploy] for manual deployment. Now that I'm set up on [Travis-CI][travis] for testing deployment happens automatically after all tests pass.
+
+```
+git push origin master
+```
+
+On push to the master branch of this repo a build is kicked off on Travis-CI which then runs `npm run deploy` and pushes the build to
+the `gh-pages` branch using the script in [/scripts/deploy.sh][/scripts/deploy.sh].
+
+This technique is discussed more in detail here: [Publishing gh-pages with Travis-CI][publishing-with-travis].
 
 ## License
 
@@ -117,3 +130,6 @@ content under `/src` is under CC.
 [permalinks]: https://github.com/segmentio/metalsmith-permalinks (metalsmith-permalinks)
 [less]: https://github.com/christophercliff/metalsmith-less (metalsmith-less)
 [ignore]: https://github.com/segmentio/metalsmith-ignore (metalsmith-ignore)
+[deploy]: https://github.com/meandavejustice/gh-pages-deploy (gh-pages-deploy on Github)
+[travis]: https://travis-ci.org (Travis-CI)
+[publishing-with-travis]: https://medium.com/@nthgergo/publishing-gh-pages-with-travis-ci-53a8270e87db (Publishing gh-pages with Travis-CI)
