@@ -7,7 +7,7 @@ My love for it began in 2002 making websites on Homestead about my favorite
 anime series. My interest in anime has faded, but I still enjoy working on
 the web!
 
-The first gig was for a company [**Optimal Outsource**][optimal-outsource] in **2006**. We did mailings for
+The first gig was for a company called [**Optimal Outsource**][optimal-outsource] in **2006**. We did mailings for
 property management companies. I started there running the mail inserters and
 manually processing customer data – csv's, excel and the like. With a good understanding of the problem I built
 our first online ordering system. Our clients were now able to submit orders
@@ -38,7 +38,7 @@ smart team. So in **2012** I dove in to the startup world!
 Under [Andrew Sliwinski's][andrew] awesome guidance I got heavily in to Node.JS. I was
 hooked! Working in such a small team I got to touch almost every part of
 the web experience. Design and engineering worked very closely
-(the ofifce was a tiny laundromat :p) from conception through implementation of
+(the office was a tiny laundromat :p) from conception through implementation of
 features and entire flows. Here I also developed my skills for product planning
 and management which helped me appreciate the entire development process holistically. Some
 notable products I helped ship are the membership offering [Extra Awesome][diy-ea],
