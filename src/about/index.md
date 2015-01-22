@@ -40,7 +40,10 @@ hooked! Working in such a small team I got to touch almost every part of
 the web experience. Design and engineering worked very closely
 (the ofifce was a tiny laundromat :p) from conception through implementation of
 features and entire flows. Here I also developed my skills for product planning
-and management which helped me appreciate the entire development process holistically.
+and management which helped me appreciate the entire development process holistically. Some
+notable products I helped ship are the membership offering [Extra Awesome][diy-ea],
+a mobile friendly revamp of our [join flow][diy-join] increasing conversion and
+d3 powered user insights in to their progress on DIY.
 
 Now in **2015** I'm looking for another project to work on! I'm at a place in my
 career where I not only want to create great work, but I'm excited about helping
@@ -91,3 +94,5 @@ Open Source projects I've contributed to:
 [zach]: https://twitter.com/zachklein (Zach's Twitter)
 [andrew]: https://twitter.com/thisandagain (Andrew's Twitter)
 [nicole]: https://twitter.com/stubbornella (Nicole's Twitter)
+[diy-ea]: https://diy.org/membership (DIY Extra Awesome)
+[diy-join]: https://diy.org/join (DIY Join)
