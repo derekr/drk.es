@@ -1,6 +1,6 @@
 ---
 title: Deploying With Dokku on Digital Ocean Part 1
-draft: true
+publish: draft
 ---
 
 # Deploying With Dokku on Digital Ocean
