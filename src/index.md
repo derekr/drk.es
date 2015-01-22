@@ -12,11 +12,11 @@ catalog [cool dev tools][drktools] and photograph on
 [exposure][exposure] & [instagram][instagram].
 
 Currently available for work in SF.
-Read [more about me][resume] and [let me know][contact]
+Read [more about me][about] and [let me know][contact]
 if we should chat :).
 
 [articles]: /articles (Articles on drk.es)
-[resume]: /resume (Derek's Resume)
+[about]: /about (About Derek)
 [contact]: /contact (Contact Derek)
 [github]: https://github.com/derekr (derekr on Github)
 [twitter]: https://twitter.com/drk (drk on Twitter)
@@ -24,3 +24,4 @@ if we should chat :).
 [drktools]: http://drktools.tumblr.com (drktools)
 [exposure]: https://ddrrkk.exposure.co (ddrrkk on Exposure)
 [instagram]: http://instagram.com/derekr (derekr on Instagram)
+[contact]: mailto:derekr@me.com (Derek's Email)

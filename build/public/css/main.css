@@ -20,11 +20,18 @@ h4 {
 h2 {
   margin-top: 30px;
 }
-p {
+p,
+ul {
   line-height: 1.5;
   font-size: 1.2em;
   /* 1.5 at large */
   color: #555;
+}
+a {
+  color: #7fdbff;
+}
+a:visited {
+  color: #f012be;
 }
 .container {
   max-width: 800px;
