@@ -18,7 +18,7 @@ Django which allowed easier processing and maintenance thanks to the
 provided admin panel. In **2010** I left to find my next project.
 
 I was living in Orange County and taking time to find a good fit for work.
-This resulted in insufficient funds ;), but I was able to afford a trip up to
+This resulted in insufficient funds, but I was able to afford a trip up to
 San Francisco to attend the first Github Developers conference. It was here I
 met some cool people and found my next project at [**Trulia**][trulia].
 
