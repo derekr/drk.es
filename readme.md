@@ -98,6 +98,35 @@ Custom plugin that takes all parsed `*.html` files and wraps them
 in a base template [/lib/templates/layout.html](/lib/templates/layout.html). Provides
 custom logic for pre-rendering collections with a particular template (such as articles being wrapped in an `article` tag).
 
+## Tests
+
+```
+npm test
+```
+
+```
+> drk@1.0.0 test /Users/drk/dev/drk.es
+> npm run dep-check && tape ./tests/**/*.js
+
+
+> drk@1.0.0 dep-check /Users/drk/dev/drk.es
+> dependency-check .
+
+Success! All dependencies used in the code are listed in package.json
+TAP version 13
+# all the links
+ok 1 /Users/drk/dev/drk.es/build/articles/index.html: no broken links!
+ok 2 /Users/drk/dev/drk.es/build/articles/nerd-nightmares/index.html: no broken links!
+ok 3 /Users/drk/dev/drk.es/build/index.html: no broken links!
+ok 4 /Users/drk/dev/drk.es/build/about/index.html: no broken links!
+
+1..4
+# tests 4
+# pass  4
+
+# ok
+```
+
 ## Deployment
 
 Initially I was using a really cool module [gh-pages-deploy][deploy] for manual deployment. Now that I'm set up on [Travis-CI][travis] for testing deployment happens automatically after all tests pass.
@@ -107,7 +136,7 @@ git push origin master
 ```
 
 On push to the master branch of this repo a build is kicked off on Travis-CI which then runs `npm run deploy` and pushes the build to
-the `gh-pages` branch using the script in [/scripts/deploy.sh][/scripts/deploy.sh].
+the `gh-pages` branch using the script in [/scripts/deploy.sh](/scripts/deploy.sh).
 
 This technique is discussed more in detail here: [Publishing gh-pages with Travis-CI][publishing-with-travis].
 
