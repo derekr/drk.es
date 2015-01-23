@@ -18,13 +18,14 @@
     "metalsmith-simplewatch": "^2.0.0"
   },
   "devDependencies": {
-    "gh-pages-deploy": "^0.1.1",
-    "tape": "^3.4.0",
-    "request": "^2.51.0",
-    "cheerio": "^0.18.0",
     "amp-reduce": "^1.0.0",
+    "cheerio": "^0.18.0",
     "dependency-check": "^2.1.0",
-    "glob": "^4.3.5"
+    "gh-pages-deploy": "^0.1.1",
+    "glob": "^4.3.5",
+    "marked": "^0.3.2",
+    "request": "^2.51.0",
+    "tape": "^3.4.0"
   },
   "scripts": {
     "build": "node index.js",

@@ -4,7 +4,7 @@ My homestead.
 
 ## Usage
 
-This site is using [Metalsmith](), a static site generator.
+This site is using [Metalsmith][metalsmith], a static site generator.
 Chosen for it's barebones interface and decent library of
 plugins around generating a static site.
 

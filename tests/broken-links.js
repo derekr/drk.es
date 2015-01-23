@@ -5,6 +5,7 @@ var async = require('async');
 var fs = require('fs');
 var reduce = require('amp-reduce');
 var request = require('request');
+var marked = require('marked');
 
 function reduceUrls (elements) {
     return reduce(elements, function (memo, el) {
@@ -56,4 +57,29 @@ test('all the links', function (t) {
             t.end();
         });
     });
+});
+
+test('readme', function (t) {
+    file = __dirname + '/../readme.md';
+
+    fs.readFile(file, function (err, buff) {
+        var html = marked(buff.toString());
+
+        var $ = cheerio.load(html);
+        var urls = reduceUrls($('a'));
+
+        async.map(urls, mapUrlResponses, function (err, results) {
+            var non200 = results.filter(function (res) {
+                return res.code !== 200;
+            });
+
+            if (non200.length > 0) {
+                t.fail(non200.length + ' broken links');
+            } else {
+                t.pass('readme.md: no broken links!');
+            }
+
+            t.end();
+        });
+    })
 });
