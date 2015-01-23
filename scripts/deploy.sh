@@ -1,7 +1,4 @@
 #!/bin/bash
-rm -rf build || exit 0;
-mkdir build;
-node ./index.js
 ( cd build
 git init
 git config user.name "Derek Reynolds"
