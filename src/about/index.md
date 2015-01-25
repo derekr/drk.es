@@ -27,13 +27,12 @@ Very exciting! Initially tasked with building out a full map experience for
 property and housing searches I also worked on a home page refresh and eventually
 settled in a new team for tackling our mortgage offerings. I also helped
 the company transition in to new technologies and methodologies. I was a part of
-the team that migrated engineering from SVN to GIT and worked with [Nicole Sullivan][nicole]
-to help get our css in to shape.
+the team that migrated engineering from SVN to GIT and worked with [Nicole Sullivan][nicole] and her talented crew to help get our stylesheets in to shape.
 
 A year and a half in I had seen [Zach Klein][zach] seeding out hints of a new company
 he was starting called [**DIY**][diy]. It was the first project since starting at Trulia
-that caught my attention and I had an opportunity to join their small and
-smart team. So in **2012** I dove in to the startup world!
+that got my dev senses tingling. I had an opportunity to join their small and
+smart team so in **2012** I dove in to the startup world!
 
 Under [Andrew Sliwinski's][andrew] awesome guidance I got heavily in to Node.JS. I was
 hooked! Working in such a small team I got to touch almost every part of
@@ -75,8 +74,8 @@ You can see some of my actual work and contributions here:
 Open Source projects I've contributed to:
 
 - https://github.com/diy/web-playground
-- https://github.com/diy/donutchart
-- https://github.com/diy/radarchart
+- https://github.com/diy/donutchart (collab w/ [Ri Lio][ri])
+- https://github.com/diy/radarchart (collab w/ [Ri Lio][ri])
 - https://github.com/diy/icons
 - https://github.com/diy/parse-post
 - https://github.com/diy/handlebars-helpers
@@ -96,3 +95,4 @@ Open Source projects I've contributed to:
 [nicole]: https://twitter.com/stubbornella (Nicole's Twitter)
 [diy-ea]: https://diy.org/membership (DIY Extra Awesome)
 [diy-join]: https://diy.org/join (DIY Join)
+[ri]: https://twitter.com/riblah (Ri's Twitter)
