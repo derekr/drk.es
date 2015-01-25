@@ -1,4 +1,3 @@
-var serve = require('metalsmith-serve');
 var watch = require('metalsmith-simplewatch');
 
 // require('./lib/metalsmith')()
