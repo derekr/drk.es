@@ -15,6 +15,10 @@ Currently available for work in SF.
 Read [more about me][about] and [let me know][contact]
 if we should chat :).
 
+– <img src="/public/images/drk-002.jpg" alt="drk" class="about-img"> drk
+
+<br><br>
+
 ## Projects
 
 [DIY - diy.org][diy]
