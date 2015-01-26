@@ -59,7 +59,7 @@ will change depending on how many dots are filled in increasing the scanability
 of To-Do's that might be cheap and quick or expensive and difficult depending
 on what you're looking for.
 
-- Button and To-Do Card designed by [Ryan][ryan].
+- Button and To-Do Card designed by [Ryan Brock][ryan].
 - I implemented the serverside and clientside.
 
 ## Portfolio
