@@ -15,6 +15,10 @@ Currently available for work in SF.
 Read [more about me][about] and [let me know][contact]
 if we should chat :).
 
+## Projects
+
+[DIY - diy.org][diy]
+
 [articles]: /articles (Articles on drk.es)
 [about]: /about (About Derek)
 [contact]: /contact (Contact Derek)
@@ -25,3 +29,4 @@ if we should chat :).
 [exposure]: https://ddrrkk.exposure.co (ddrrkk on Exposure)
 [instagram]: http://instagram.com/derekr (derekr on Instagram)
 [contact]: mailto:derekr@me.com (Derek's Email)
+[diy]: /projects/diy (Projects – DIY)

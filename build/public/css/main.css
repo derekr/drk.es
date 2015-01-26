@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
+img {
+  max-width: 100%;
+}
 h1 {
   font-size: 3em;
   /* 7 at large */
@@ -48,6 +51,11 @@ a:visited {
   width: 90px;
   margin-bottom: -36px;
   display: inline-block;
+}
+.article-container img,
+.article-container .article-media {
+  display: block;
+  margin: auto;
 }
 @media (min-width: 500px) {
   h1 {
