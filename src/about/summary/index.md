@@ -68,3 +68,10 @@ http://github.com/derekr
 - https://github.com/diy/parse-post
 - https://github.com/diy/handlebars-helpers
 - https://github.com/derekr/wheredamoviesat
+
+## Around The Web
+
+https://twitter.com/drk
+http://instagram.com/derekr/
+http://stackoverflow.com/users/186101/derek-reynolds
+http://codepen.io/drk/
