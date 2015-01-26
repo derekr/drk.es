@@ -4,9 +4,11 @@ title: Work at DIY
 
 # DIY
 
-[DIY][diy] is a community for kids to come together to learn skills and share what
+[DIY][diy] is a community of kids learning skills and sharing what
 they make. Designing and building for kids is a fun and challenging task – it helped
-working with a team that are still all kids at heart. It was fun coming up with solutions that were engaging, but worked within constraints put forth by things like [COPPA][coppa].
+working with a team that are all still kids at heart. I enjoyed coming up with
+solutions that were engaging, but worked within constraints put forth by
+things like [COPPA][coppa].
 
 In addition to working on the website proper and other services I built internal
 tools like a Skills admin site for our curators and a playground for designers to
@@ -27,7 +29,7 @@ sketch new web components with our type and base css pre-loaded.
 
 Kids could browse a [wide breadth of Skills][skills] and get a glimpse in to all
 sorts of interests they may not have known they had. If they are signed in a
-list of skills in progress could encourage completion and earning a patch as
+list of skills in progress could encourage completion earning a patch as
 a result. Clientside sorting and grouping made it really easy to navigate the
 100+ skills on the page. Any new skills would have a `new` label on their card and
 that would bubble up to the category navigation to the left. New and noteworthy
@@ -41,10 +43,10 @@ load.
 
 ## To-Do's
 
-After launching Extra Awesome we had some room to work on a non-roadmap project.
-I chose to work on adding support for bookmarking challenges to come back to. Kids
-on the site had asked for the feature before and I always saw the activities you
-could do on DIY were asyncrhonous so a feature like To-Do's would be pretty beneficial.
+After launching [Extra Awesome][ea] we had some room to work on a non-roadmap project.
+I chose adding support for bookmarking challenges. Kids on the site had asked for the
+feature before and I always saw the activities you could do on DIY were asyncrhonous
+so a feature like To-Do's would be pretty beneficial.
 
 On each Challenge detail view a To-Do button would appear as long as you haven't
 completed the challenge already. Tapping the button would add the challenge
@@ -55,7 +57,7 @@ to your To-Do list in your portfolio.
 ![To-Do List](https://cloud.githubusercontent.com/assets/22249/5868810/bd96fdd0-a263-11e4-9642-23e378b60967.png)
 
 Each To-Do item sports time and cost metadata meters. The color of the meter
-will change depending on how many dots are filled in increasing the scanability
+will change depending on how many dots are filled increasing the scannability
 of To-Do's that might be cheap and quick or expensive and difficult depending
 on what you're looking for.
 
@@ -70,7 +72,7 @@ on the roadmap such as custom avatars.
 
 In the previous iteration you couldn't view your entire skill grid. With this
 update you can now scroll through your entire skill history. The grid was built
-using an [awesome module by Substack][hexgrid] with some additional tweaks to meet the
+using an [awesome module by Substack][hexgrid] with some [additional tweaks][skill-hexgrid] to meet the
 intended visual design.
 
 ![Skill Grid](/projects/diy/images/skill-grid.gif)
@@ -81,11 +83,11 @@ intended visual design.
 
 ## Insights
 
-A part of the Extra Awesome offerings was access to your insights on your portfolio
-as well as your parent's dashboard. We hired Ri Liu for a data viz residency to
+A part of the Extra Awesome offerings is access to your insights on your portfolio
+as well as your parent's dashboard. We hired [Ri Liu][ri] for a data viz residency to
 help craft the d3 visualization and I helped put all the pieces together. We
-opened sourced two of the graphs used to make up Insights: donutchart and
-radarchart.
+opened sourced two of the graphs used to make up Insights: [donutchart][donutchart] and
+[radarchart][radarchart].
 
 ![Insights Progress](https://cloud.githubusercontent.com/assets/22249/5868805/b888ac8a-a263-11e4-880f-6a3b0efc2829.png)
 
@@ -112,6 +114,7 @@ accounts were using mobile devices.
 - Launched a membership offering called [Extra Awesome][ea]
 - Started a weekly Show and Smell for staff to share work and whatever as a way to wind down on Friday afternoons.
 - Managed services in AWS and web deployments.
+- Worked on extra [documentation and walkthroughs][diy-client-example] to help kids work with the [DIY API][diy-api].
 
 [coppa]: http://www.coppa.org (Children's Online Privacy Protection Act)
 [diy]: https://diy.org (DIY)
@@ -125,3 +128,8 @@ accounts were using mobile devices.
 [jack]: https://twitter.com/mousecastle (Jack's Twitter)
 [ea]: https://diy.org/membership (DIY Membership)
 [join]: https://diy.org/join (DIY Join)
+[diy-api]: http://docs.diy.org (DIY API Docs)
+[diy-client-example]: https://github.com/derekr/diy-client-example (Getting started w/ diy-client)
+[skill-hexgrid]: https://github.com/diy/skill-hex-grid (diy/skill-hex-grid on Github)
+[donutchart]: https://github.com/diy/donutchart (diy/donutchart)
+[radarchart]: https://github.com/diy/radarchart (diy/radarchart)
