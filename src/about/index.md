@@ -74,8 +74,8 @@ You can see some of my actual work and contributions here:
 Open Source projects I've contributed to:
 
 - https://github.com/diy/web-playground
-- https://github.com/diy/donutchart (collab w/ [Ri Lio][ri])
-- https://github.com/diy/radarchart (collab w/ [Ri Lio][ri])
+- https://github.com/diy/donutchart (collab w/ [Ri Liu][ri])
+- https://github.com/diy/radarchart (collab w/ [Ri Liu][ri])
 - https://github.com/diy/icons
 - https://github.com/diy/parse-post
 - https://github.com/diy/handlebars-helpers
