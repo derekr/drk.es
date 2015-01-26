@@ -19,9 +19,11 @@ if we should chat :).
 
 <br><br>
 
-## Projects
+## Some Projects
 
 [DIY - diy.org][diy]
+
+More on the way!
 
 [articles]: /articles (Articles on drk.es)
 [about]: /about (About Derek)
